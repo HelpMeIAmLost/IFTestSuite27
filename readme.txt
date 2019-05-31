@@ -1,21 +1,6 @@
 IFTestSuite ReadMe
 This package contains:
-  IFTestSuite
-    |- Build
-    |- DBC
-      |- GC7_RE7
-        IPC.dbc
-        LOCAL1_CAN.dbc
-        LOCAL2_CAN.dbc
-        PU_bus.dbc
-        SA_bus.dbc
-      |- HR3
-        IPC.dbc
-        LOCAL_CAN.dbc
-        LOCAL1_CAN.dbc
-        LOCAL2_CAN.dbc
-        MAIN_CAN.dbc
-    |- Stubs
+  IFTestSuite27
     common_util.py
     InterfaceTestMT.py
     PostFlashPreTestCheck.py
@@ -26,7 +11,7 @@ This package contains:
 
 Requirements
 ---
-  * Python 3.7
+  * Python 2.7
   * Python libraries in requirements.txt
   * Interface specification file in Excel
   * DBC files and folders in the following structure:
